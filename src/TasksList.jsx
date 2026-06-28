@@ -1,11 +1,11 @@
 function TasksList({tasks}){
     return(
         <div>
-            <ul>
+            <ol>
                 {tasks.map(task=>{
                    return <li key={task.id}>{task.text}</li>
                 })}
-            </ul>
+            </ol>
         </div>
         
     )
